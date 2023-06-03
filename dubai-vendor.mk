@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/dubai
 
 PRODUCT_COPY_FILES += \
+    vendor/motorola/dubai/proprietary/vendor/etc/permissions/com.motorola.camera3.dubai.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.dubai.xml \
     vendor/motorola/dubai/proprietary/system/etc/permissions/com.motorola.dolby.dolbyui.dax3.features.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.dolby.dolbyui.dax3.features.xml \
     vendor/motorola/dubai/proprietary/system/etc/permissions/motoaudioeffectsdk.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/motoaudioeffectsdk.xml \
     vendor/motorola/dubai/proprietary/system/etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml \
