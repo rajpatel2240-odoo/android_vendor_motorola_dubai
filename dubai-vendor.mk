@@ -452,4 +452,5 @@ PRODUCT_PACKAGES += \
     MotoDolbyDax3 \
     daxService \
     motoaudioeffectsdk \
-    vendor.dolby.hardware.dms
+    vendor.dolby.hardware.dms \
+    MotoDialer.apk
